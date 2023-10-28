@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+</head>
+
+<body>
+    <header>
+        <h1>Этот сайт про Железного человека</h1>
+        <hr />
+	<hr></hr>	
+    </header>
+    <main>
+        <p>Данный сайт понравится фанатам вселенной Marvel</p>
+        <img height="611px"
+            src="https://motor.ru/thumb/1816x0/filters:quality(75):no_upscale()/imgs/2021/02/20/12/4525141/247934f29c64d05f4fa8859132eec5bb877afff1.jpg" />
+
+    </main>
+    <footer>
+        <a href="https://github.com/Kurt-Hiuz">Ссылка на мой гитхаб</a>
+    </footer>
+</body>
+
+</html<hr />>

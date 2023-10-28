@@ -1,0 +1,107 @@
+ <!DOCTYPE html> <!-- Тип документа-->
+<html> <!-- Вся наша страница-->
+
+<head> <!-- "Голова сайта" - логика сайта-->
+    <meta charset="UTF-8" /> <!-- Кодировка-->
+    <link rel="stylesheet" href="styles/style.css" /> <!-- Зависимости (другие файлы)-->
+    <title>Page</title> <!-- Название вкладки-->
+</head>
+
+<body> <!-- Тело сайта - то, что отображаем-->
+    <!-- Комментарий -->
+    <header> <!-- Шапка сайта - верхняя часть -->
+        <hr /> <!--Линия во всю ширину-->
+        Шапка сайта
+        <nav>Меню</nav> <!-- Блок навигации -->
+        <hr />
+    </header>
+    <main> <!-- Основная, главная, часть сайта -->
+        <hr />
+        <aside> <!--Боковая панель-->
+            Боковая панель
+        </aside>
+        <section> <!--Секция на странице-->
+            Секция сайта
+        </section>
+        <div> <!-- Блок-контейнер -->
+            Блок-<span>контейнер</span> <!-- Блок выделения текста-->
+        </div>
+
+        <h1>Заголовок</h1> <!-- Заголовок 1 уровня-->
+        <h2>Заголовок</h2> <!-- Заголовок 2 уровня-->
+        <h3>Заголовок</h3> <!-- Заголовок 3 уровня-->
+        <h4>Заголовок</h4> <!-- Заголовок 4 уровня-->
+        <h5>Заголовок</h5> <!-- Заголовок 5 уровня-->
+        <h6>Заголовок</h6> <!-- Заголовок 6 уровня-->
+        <br /> <!--Перенос текста-->
+        <p>Lorem<br /> ipsum dolor sit amet consectetur adipisicing elit. Molestiae fuga corrupti, labore excepturi
+            in,<br />
+            officiis porro sint, itaque pariatur, dignissimos quis deserunt perspiciatis ducimus culpa cumque adipisci
+            error esse repellat.</p>
+        <p>In officiis porro sint, itaque pariatur, dignissimos quis deserunt perspiciatis ducimus culpa cumque adipisci
+            error esse repellat.</p>
+
+        <pre>   <!-- Фактическое отображение текста в браузере-->
+            awdw
+            waw
+            aw   
+            q
+        </pre>
+
+        <!---->
+
+        <a href="https://github.com/dashboard">Мой гитхаб</a> <!--Ссылка-->
+
+        <b></b><!-- Жирное начертание текста-->
+        <em></em><!-- Курсивное начертание (устарел)-->
+     
+        <p>Lorem <b>ipsum dolor</b> sit <em>amet consectetur</em> adipisicing elit.</p>
+        <p>Lorem <b>ipsum dolor</b> sit <span>amet consectetur</span> adipisicing elit.</p>
+
+        <hr />
+        <img src="https://avatars.githubusercontent.com/u/49841996?v=4" alt="Аватарка моего гитхаба">
+        <hr />
+        <video controls src=""></video>
+        <hr />
+        <audio controls src=""></audio>
+        <hr />
+        <ul> <!-- Маркерованный список -->
+            <li>Строка 1</li> <!-- элемент списка-->
+            <li>Строка 2</li>
+            <li>Строка 3</li>
+        </ul>
+
+        <ol> <!-- Нумерованный список-->
+            <li>Строка 1</li>
+            <li>Строка 2</li>
+            <li>Строка 3</li>
+        </ol>
+        <hr />
+        <table border="1px"> <!--Таблица. border="1px" - рамка в один px -->
+            <tr> <!--Строка-->
+                <td>1</td> <!-- ячейка таблицы-->
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+        <hr />
+    </main>
+
+    <footer> <!-- Подвал, нижняя часть страницы-->
+        <hr />
+        Подвал
+        <hr />
+    </footer>
+</body>
+
+</html>
