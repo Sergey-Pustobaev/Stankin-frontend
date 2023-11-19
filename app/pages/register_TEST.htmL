@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <style>
+        header {
+           background-color: rgba(118, 202, 105, 0.914);
+       }
+   
+   </style>
+  <title>Register </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ </head>
+ <body>
+ 
+  <h1>Регистрация</h1>
+
+  <form action="https://www.google.com/search" method="get" id="nameform">
+    <label for="q">search:</label>
+    <input type="text" id="q" name="q"><br><br>
+   <label for="fname">Имя:</label>
+   <input type="text" id="fname" name="fname"><br><br>
+   <label for="lname">Фамилия:</label>
+   <input type="text" id="lname" name="lname">
+   <label for="@mail">Почта</label>
+   <input type="text" id="@mail" name="lname"><br><br> 
+   
+  </form>
+
+  <p></p>
+
+  <button type="submit" form="nameform" value="Submit">Отправить</button>
+
+ 
+
+
+
+
+
+  <form action="register.html" method="get" id="testnameform">
+   <label for="fname1">Имя:</label>
+   <input type="text" id="fname1" name="fname1"><br><br>
+  </form>
+
+  <button type="submit" form="testnameform" value="Submit">Отправить2</button>
+  <button type="reset" form="testnameform" value="Submit"> del</button>
+
+
+
+  <div id="welcome">привет незнакомец!</div>
+
+  <script>
+    var name = /[&?]fname1=([^&]+)/.exec(location.search);
+
+    if (!!name) {
+
+        document.getElementById('welcome').textContent = "hi," + name[1];
+    }
+    </script>​
+ </body>
+</html>

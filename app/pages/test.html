@@ -1,18 +1,78 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
 
 <head>
-    <meta charset="UFT-8">
-    <title>minecraft</title>
+    <meta charset="UTF-8">
+    <title>Теги</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 
 <body>
-<header>
-<h1>Всё о Майнкрафте</h1>
-<hr />
-</header>
-<main>
-<p>Постараюсь рассказать всё что знаю</p>
-</main>
+    <!-- Ссылка якорь -->
+    <a href="#footer">Вниз</a><br><br><br><br>
+    <a href="#">Ссылка на ту же страницу</a>
+
+    <!-- Хороший вариант ссылки (коротко и по делу)-->
+    <a href="#" download="index.html">Скачать Эту страницу</a>
+
+    <!-- Плохой вариант ссылки (много воды)-->
+    <p><a href="">Нажмите сюда</a>, чтобы скачать Эту страницу</p>
+
+    <!-- Абсолютная ссылка -->
+    <p><a href="/first/3/4/page.html">Ссылка на мой гитхаб</a></p>
+
+    <!-- Относительная ссылка -->
+    <p><a href="first/3/4/page.html">Ссылка на мой гитхаб</a></p>
+
+    <a href="https://github.com/Kurt-Hiuz?tab=repositories">
+        <img src="https://avatars.githubusercontent.com/u/49841996?v=4" alt="Мой гитхаб">
+    </a>
+
+    <img src="https://w.forfun.com/fetch/56/5656d35727009cabea6ce79973a9702c.jpeg" alt="">
+    <img src="https://w.forfun.com/fetch/56/5656d35727009cabea6ce79973a9702c.jpeg" alt="">
+    <img src="https://w.forfun.com/fetch/56/5656d35727009cabea6ce79973a9702c.jpeg" alt="">
+
+    <h1 id="footer">Подвал сайта</h1>
+
+    <img height="300px" width="200px" src="путь/до/картинки" alt="Описание"
+        sizes="(max-width: 700px) 100vw, (???) 750px, 900px" srcset="название1.jpg 640w, название2.png 1600w" />
+
+    <img src="Название_гифки.gif" alt="гифка">
+    <hr>
+    <video controls width="500px" height="200px" autoplay loop muted poster="превью.png">
+        <source src="название.mp3" type="video/mp3" />
+        <source src="название.webm" type="video/webm" />
+    </video>
+    <hr>
+    <audio controls>
+        <source src="название.mp4" type="video/mp4" />
+        <source src="название.ogg" type="video/ogg" />
+    </audio>
+
+    <table border="1px">
+        <!-- Первая строка -->
+        <tr>
+            <td>
+                <div>Ячейка 1</div>
+            </td>
+            <td>Ячейка 2</td>
+            <td>Ячейка 3</td>
+        </tr>
+        <!-- Вторая строка -->
+        <tr>
+            <td>Ячейка 4</td>
+            <td>Ячейка 5</td>
+            <td>Ячейка 6</td>
+        </tr>
+    </table>
+
+
+    <!-- ДЗ: Формулы-сокращения Emmet -->
+    ul>(li>{$})*5+ol>li*3
 </body>
+
 </html>

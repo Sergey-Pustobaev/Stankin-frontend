@@ -1,0 +1,55 @@
+.Minecraft::first-letter{
+    margin-left: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100%;
+    background-color: bisque;
+}
+
+.header {
+    width: 90%;
+    height: 150px;
+    background-color: cornflowerblue;
+    margin: 0 5%;
+}
+
+.header__content {
+    width: 100%;
+    height: 75%;
+    background-color: dimgrey;
+    display: flex;
+}
+
+.content__logo_h {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+.content__navigation_h {
+    width: 60%;
+    height: 50px;
+    border: 2px solid black;
+}
+
+.main {
+    width: 90%;
+    min-height: 100vh;
+    background-color: #a7d7c5;
+    margin: 0 5%;
+}
+
+.footer {
+    width: 90%;
+    height: calc(150px / 2);
+    background-color: plum;
+    margin: 0 5%;
+}
